@@ -1,0 +1,36 @@
+@extends('app')
+
+@section('content')
+
+<div class="blog-container">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam facere vel cum voluptates officia, sint eum perspiciatis vitae tenetur incidunt. Aperiam rem sint nostrum quo dolor necessitatibus tenetur voluptates pariatur?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt fugiat totam tempore voluptates quos, distinctio voluptas id doloribus soluta, labore, enim reprehenderit nisi magnam unde quae ab animi vitae veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum natus aperiam iste nam praesentium consequuntur dolorem dignissimos neque veritatis facere. Inventore dolor iste voluptatum! Soluta aliquam eos ducimus odit vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam temporibus consequatur, ratione expedita et veniam soluta maxime provident quaerat cupiditate neque voluptatum vero? Corporis nisi debitis in culpa, molestiae aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ab consectetur voluptatem eaque pariatur, hic velit incidunt blanditiis, obcaecati consequatur, a corporis aspernatur et. Temporibus dignissimos doloribus vero fuga. Natus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus accusantium est corporis, ex animi aliquam repudiandae velit amet perspiciatis, quos voluptatem blanditiis porro cupiditate ad. Voluptatum doloribus dolorum repudiandae quae?
+    </p>
+
+    <br>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam facere vel cum voluptates officia, sint eum perspiciatis vitae tenetur incidunt. Aperiam rem sint nostrum quo dolor necessitatibus tenetur voluptates pariatur?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt fugiat totam tempore voluptates quos, distinctio voluptas id doloribus soluta, labore, enim reprehenderit nisi magnam unde quae ab animi vitae veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum natus aperiam iste nam praesentium consequuntur dolorem dignissimos neque veritatis facere. Inventore dolor iste voluptatum! Soluta aliquam eos ducimus odit vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam temporibus consequatur, ratione expedita et veniam soluta maxime provident quaerat cupiditate neque voluptatum vero? Corporis nisi debitis in culpa, molestiae aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ab consectetur voluptatem eaque pariatur, hic velit incidunt blanditiis, obcaecati consequatur, a corporis aspernatur et. Temporibus dignissimos doloribus vero fuga. Natus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus accusantium est corporis, ex animi aliquam repudiandae velit amet perspiciatis, quos voluptatem blanditiis porro cupiditate ad. Voluptatum doloribus dolorum repudiandae quae?
+    </p>
+
+    <br>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam facere vel cum voluptates officia, sint eum perspiciatis vitae tenetur incidunt. Aperiam rem sint nostrum quo dolor necessitatibus tenetur voluptates pariatur?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt fugiat totam tempore voluptates quos, distinctio voluptas id doloribus soluta, labore, enim reprehenderit nisi magnam unde quae ab animi vitae veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum natus aperiam iste nam praesentium consequuntur dolorem dignissimos neque veritatis facere. Inventore dolor iste voluptatum! Soluta aliquam eos ducimus odit vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam temporibus consequatur, ratione expedita et veniam soluta maxime provident quaerat cupiditate neque voluptatum vero? Corporis nisi debitis in culpa, molestiae aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ab consectetur voluptatem eaque pariatur, hic velit incidunt blanditiis, obcaecati consequatur, a corporis aspernatur et. Temporibus dignissimos doloribus vero fuga. Natus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus accusantium est corporis, ex animi aliquam repudiandae velit amet perspiciatis, quos voluptatem blanditiis porro cupiditate ad. Voluptatum doloribus dolorum repudiandae quae?
+    </p>
+
+    <br>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam facere vel cum voluptates officia, sint eum perspiciatis vitae tenetur incidunt. Aperiam rem sint nostrum quo dolor necessitatibus tenetur voluptates pariatur?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt fugiat totam tempore voluptates quos, distinctio voluptas id doloribus soluta, labore, enim reprehenderit nisi magnam unde quae ab animi vitae veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum natus aperiam iste nam praesentium consequuntur dolorem dignissimos neque veritatis facere. Inventore dolor iste voluptatum! Soluta aliquam eos ducimus odit vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam temporibus consequatur, ratione expedita et veniam soluta maxime provident quaerat cupiditate neque voluptatum vero? Corporis nisi debitis in culpa, molestiae aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ab consectetur voluptatem eaque pariatur, hic velit incidunt blanditiis, obcaecati consequatur, a corporis aspernatur et. Temporibus dignissimos doloribus vero fuga. Natus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus accusantium est corporis, ex animi aliquam repudiandae velit amet perspiciatis, quos voluptatem blanditiis porro cupiditate ad. Voluptatum doloribus dolorum repudiandae quae?
+    </p>
+
+    <br>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam facere vel cum voluptates officia, sint eum perspiciatis vitae tenetur incidunt. Aperiam rem sint nostrum quo dolor necessitatibus tenetur voluptates pariatur?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt fugiat totam tempore voluptates quos, distinctio voluptas id doloribus soluta, labore, enim reprehenderit nisi magnam unde quae ab animi vitae veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum natus aperiam iste nam praesentium consequuntur dolorem dignissimos neque veritatis facere. Inventore dolor iste voluptatum! Soluta aliquam eos ducimus odit vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam temporibus consequatur, ratione expedita et veniam soluta maxime provident quaerat cupiditate neque voluptatum vero? Corporis nisi debitis in culpa, molestiae aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ab consectetur voluptatem eaque pariatur, hic velit incidunt blanditiis, obcaecati consequatur, a corporis aspernatur et. Temporibus dignissimos doloribus vero fuga. Natus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus accusantium est corporis, ex animi aliquam repudiandae velit amet perspiciatis, quos voluptatem blanditiis porro cupiditate ad. Voluptatum doloribus dolorum repudiandae quae?
+    </p>
+</div>
+
+@endsection

@@ -14,5 +14,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('products.index');
+});
+
+Route::get('/gitstore', function () {
+    return view('gitstore.index');
+});
+
+Route::get('/sign-up', function () {
+    return view('login.signup');
+});
+
+Route::get('/sign-in', function () {
+    return view('login.signin');
+});
+
+Route::get('/blog', function () {
+    return view('blog.index');
+});
+
+Route::get('/about', function () {
+    return view('about.index');
 });
