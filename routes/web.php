@@ -14,25 +14,33 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('products.index');
-});
-
-Route::get('/gitstore', function () {
-    return view('gitstore.index');
-});
-
-Route::get('/sign-up', function () {
-    return view('login.signup');
-});
-
-Route::get('/sign-in', function () {
-    return view('login.signin');
+    return view('app');
 });
 
 Route::get('/blog', function () {
     return view('blog.index');
-});
+})->name('blog');
 
 Route::get('/about', function () {
     return view('about.index');
-});
+})->name('about');
+
+Route::get('/sign-up', function () {
+    return view('login.signup');
+})->name('up');
+
+Route::get('/sign-in', function () {
+    return view('login.signin');
+})->name('in');
+
+Route::get('/products', function () {
+    return view('products.index');
+})->name('products');
+
+Route::get('/gitstore', function () {
+    return view('gitstore.index');
+})->name('gitstore');
+
+Route::get('/new-ofert', function () {
+    return view('newofert.index');
+})->name('newofert');

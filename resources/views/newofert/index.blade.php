@@ -1,10 +1,11 @@
 @extends('app')
 
 @section('content')
+
 <div class="flex flex-col text-center">
-    <h1 class="text-4xl text-gray-600 md:my-10">The Best e-Commerce</h1>
+    <h2 class="text-4xl text-yellow-400 md:my-10">The Best e-Commerce</h2>
     <div class="flex flex-wrap justify-center md:mb-20 md:mt-10">
-        @for ($i = 1; $i <=12; $i++) <div class="w-44 md:w-56 flex md:mx-10 flex-col justify-center border-2 border-gray-400 text-center my-5 mx-1 md:items-center">
+        @for ($i = 1; $i <=12; $i++) <div class="w-44 md:w-56 flex md:mx-10 flex-col justify-center border-2 border-yellow-400 text-center my-5 mx-1 md:items-center">
             <div class="img-product bg-no-repeat bg-cover bg-right"></div>
             <p class="text-violet-700 mt-1">Product title</p>
             <div class="flex items-center justify-between">
@@ -20,8 +21,8 @@
                 </div>
             </div>
             <div class="flex flex-col md:w-5/6 w-full text-center md:mb-4">
-                <a href="#" class="bg-white border-violet-700 border-2 px-7 py-0 rounded-lg text-violet-700 mt-2">ADD TO CAR</a>
-                <a href="#" class="bg-violet-700 px-7 md:px-0 py-0 rounded border-2 border-violet-700 text-white mt-2">BUY NOW</a>
+                <a href="#" class="bg-white border-yellow-400 border-2 px-7 py-0 rounded-lg text-yellow-400 mt-2">ADD TO CAR</a>
+                <a href="#" class="bg-yellow-400 px-7 md:px-0 py-0 rounded border-2 border-yellow-400 text-white mt-2">BUY NOW</a>
             </div>
     </div>
     @endfor
@@ -38,6 +39,7 @@
         width: 172px;
         height: 112px;
     }
+
     @media (min-width: 768px) {
         .img-product {
             width: 220px;
@@ -47,3 +49,16 @@
 </style>
 
 @endsection
+
+
+
+
+
+
+
+
+
+
+
+
+

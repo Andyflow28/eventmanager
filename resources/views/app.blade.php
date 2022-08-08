@@ -21,12 +21,12 @@
             <img src="{{ asset('img/navegacion.png') }}" alt="menu icon" class="md:hidden w-14" x-on:click="isOpen()">
             <div class="flex">
                 <a href="/" class="text-white hidden md:inline ml-2 hover:text-cyan-100">Home</a>
-                <a href="/blog" class="text-white hidden md:inline ml-10 hover:text-cyan-100">Blog</a>
-                <a href="/about" class="text-white hidden md:inline ml-10 hover:text-cyan-100">About Us</a>
+                <a href="{{ route('blog') }}" class="text-white hidden md:inline ml-10 hover:text-cyan-100">Blog</a>
+                <a href="{{ route('about') }}" class="text-white hidden md:inline ml-10 hover:text-cyan-100">About Us</a>
             </div>
             <div class="flex items-center">
-                <a href="/sign-in" class="text-white hidden md:inline ml-10 hover:text-cyan-100">Sign in</a>
-                <a href="/sign-up" class="text-white hidden md:inline ml-5 px-3 py-1 hover:text-cyan-700 transition duration-500 rounded border-2 border-white hover:bg-white">Sign up</a>
+                <a href="{{ route('in') }}" class="text-white hidden md:inline ml-10 hover:text-cyan-100">Sign in</a>
+                <a href="{{ route('up') }}" class="text-white hidden md:inline ml-5 px-3 py-1 hover:text-cyan-700 transition duration-500 rounded border-2 border-white hover:bg-white">Sign up</a>
             </div>
             <img src="{{ asset('img/search.png') }}" alt="search icon" class="w-10 md:hidden" x-on:click="isOpenSearch()">
         </div>
@@ -37,15 +37,15 @@
         </div>
 
         <div class="bg-cyan-900 w-full flex flex-col md:hidden items-center h-52" x-show="open" x-on:click.away="close()">
-            <a href="/" class="text-white hover:text-cyan-100 my-2">Home</a>
+            <a href="{{ route('products') }}" class="text-white hover:text-cyan-100 my-2">Home</a>
             <div class="bg-slate-400 h-px w-full"></div>
-            <a href="/blog" class="text-white hover:text-cyan-100 my-2">Blog</a>
+            <a href="{{ route('blog') }}" class="text-white hover:text-cyan-100 my-2">Blog</a>
             <div class="bg-slate-400 h-px w-full"></div>
-            <a href="/about" class="text-white hover:text-cyan-100 my-2">About Us</a>
+            <a href="{{ route('about') }}" class="text-white hover:text-cyan-100 my-2">About Us</a>
             <div class="bg-slate-400 h-px w-full"></div>
-            <a href="/sign-in" class="text-white hover:text-cyan-100 my-2">Sign in</a>
+            <a href="{{ route('in') }}" class="text-white hover:text-cyan-100 my-2">Sign in</a>
             <div class="bg-slate-400 h-px w-full"></div>
-            <a href="/sign-up" class="text-white hover:text-cyan-100 my-2">Sign up</a>
+            <a href="{{ route('up') }}" class="text-white hover:text-cyan-100 my-2">Sign up</a>
         </div>
     </div>
 
@@ -65,17 +65,17 @@
         <img src="{{ asset('img/arrow-navegate.png') }}" alt="arrow" class="w-10 h-10 mx-auto my-5 md:hidden" x-on:click="isSelect()">
         <div class="bg-violet-900 flex items-center flex-col md:flex-row md:justify-around md:border-b-4 border-violet-900">
 
-            <a href="#" x-on:click="isSelect5()" x-on:click.away="closeSelect5()" :class="{'text-white hover:text-cyan-500 my-2 md:my-0 md:py-5 md:text-2xl': select5, 'text-cyan-500 my-2 md:my-0 md:py-5 md:border-b-4 md:border-cyan-500 md:text-2xl': !select5 }">
+            <a href="{{ route('newofert') }}" x-on:click="isSelect5()" x-on:click.away="closeSelect5()" :class="{'text-white hover:text-cyan-500 my-2 md:my-0 md:py-5 md:text-2xl': select5, 'text-cyan-500 my-2 md:my-0 md:py-5 md:border-b-4 md:border-cyan-500 md:text-2xl': !select5 }">
                 New Ofert
             </a>
 
             <div class="bg-slate-400 h-px w-full md:hidden"></div>
 
-            <a href="#" x-on:click="isSelect2()" x-on:click.away="closeSelect2()" :class="{'text-white hover:text-cyan-500 my-2 md:my-0 md:py-5 md:text-2xl': select2, 'my-2 md:my-0 md:py-5 md:border-b-4 md:border-cyan-500 md:text-2xl text-cyan-500': !select2 }">Products</a>
+            <a href="{{ route('products') }}" x-on:click="isSelect2()" x-on:click.away="closeSelect2()" :class="{'text-white hover:text-cyan-500 my-2 md:my-0 md:py-5 md:text-2xl': select2, 'my-2 md:my-0 md:py-5 md:border-b-4 md:border-cyan-500 md:text-2xl text-cyan-500': !select2 }">Products</a>
 
             <div class="bg-slate-400 h-px w-full md:hidden"></div>
 
-            <a href="#" x-on:click="isSelect3()" x-on:click.away="closeSelect3()" :class="{'text-white hover:text-cyan-500 my-2 md:my-0 md:py-5 md:text-2xl': select3, 'text-cyan-500 my-2 md:my-0 md:py-5 md:border-b-4 md:border-cyan-500 md:text-2xl': !select3 }">Git Store</a>
+            <a href="{{ route('gitstore') }}" x-on:click="isSelect3()" x-on:click.away="closeSelect3()" :class="{'text-white hover:text-cyan-500 my-2 md:my-0 md:py-5 md:text-2xl': select3, 'text-cyan-500 my-2 md:my-0 md:py-5 md:border-b-4 md:border-cyan-500 md:text-2xl': !select3 }">Git Store</a>
 
             <div class=" bg-slate-400 h-px w-full md:hidden"></div>
 
@@ -85,7 +85,7 @@
         </div>
     </div>
 
-    <!-- Hero -->
+    <!-- Hero 
 
     <div class="w-full bg-no-repeat back bg-cover h-[40vw] md:flex items-center justify-center">
         <div class="bg-cyan-500 hidden md:h-[30vw] md:w-[70vw] md:flex justify-center items-center rounded-xl">
@@ -93,7 +93,7 @@
                 Get Out
             </p>
         </div>
-    </div>
+    </div> -->
 
     <!-- Bar Movil -->
 
@@ -101,17 +101,17 @@
         <img src="{{ asset('img/arrow-navegate.png') }}" alt="arrow" class="w-10 h-10 mx-auto my-5 md:hidden" x-on:click="isSelect()" x-show="!movil">
         <div x-show="movil" x-on:click.away="closeSelect()" class="bg-violet-900 flex items-center flex-col md:flex-row md:justify-around md:border-b-4 border-violet-900">
 
-            <a href="#" x-on:click="isSelect5()" x-on:click.away="closeSelect5()" :class="{'text-white hover:text-cyan-500 my-2 md:my-0 md:py-5 md:text-2xl': select5, 'text-cyan-500 my-2 md:my-0 md:py-5 md:border-b-4 md:border-cyan-500 md:text-2xl': !select5 }">
+            <a href="{{ route('newofert') }}" x-on:click="isSelect5()" x-on:click.away="closeSelect5()" :class="{'text-white hover:text-cyan-500 my-2 md:my-0 md:py-5 md:text-2xl': select5, 'text-cyan-500 my-2 md:my-0 md:py-5 md:border-b-4 md:border-cyan-500 md:text-2xl': !select5 }">
                 New Ofert
             </a>
 
             <div class="bg-slate-400 h-px w-full md:hidden"></div>
 
-            <a href="#" x-on:click="isSelect2()" x-on:click.away="closeSelect2()" :class="{'text-white hover:text-cyan-500 my-2 md:my-0 md:py-5 md:text-2xl': select2, 'my-2 md:my-0 md:py-5 md:border-b-4 md:border-cyan-500 md:text-2xl text-cyan-500': !select2 }">Products</a>
+            <a href="{{ route('products') }}" x-on:click="isSelect2()" x-on:click.away="closeSelect2()" :class="{'text-white hover:text-cyan-500 my-2 md:my-0 md:py-5 md:text-2xl': select2, 'my-2 md:my-0 md:py-5 md:border-b-4 md:border-cyan-500 md:text-2xl text-cyan-500': !select2 }">Products</a>
 
             <div class="bg-slate-400 h-px w-full md:hidden"></div>
 
-            <a href="#" x-on:click="isSelect3()" x-on:click.away="closeSelect3()" :class="{'text-white hover:text-cyan-500 my-2 md:my-0 md:py-5 md:text-2xl': select3, 'text-cyan-500 my-2 md:my-0 md:py-5 md:border-b-4 md:border-cyan-500 md:text-2xl': !select3 }">Git Store</a>
+            <a href="{{ route('gitstore') }}" x-on:click="isSelect3()" x-on:click.away="closeSelect3()" :class="{'text-white hover:text-cyan-500 my-2 md:my-0 md:py-5 md:text-2xl': select3, 'text-cyan-500 my-2 md:my-0 md:py-5 md:border-b-4 md:border-cyan-500 md:text-2xl': !select3 }">Git Store</a>
 
             <div class=" bg-slate-400 h-px w-full md:hidden"></div>
 
@@ -126,7 +126,7 @@
     <footer class="bg-cyan-700">
         <div class="flex justify-around flex-wrap">
             <div class="flex flex-col items-start justify-start mx-10 my-3">
-                <a href="#" class="text-2xl my-5 text-white">New Ofert</a>
+                <a href="{{ route('newofert') }}" class="text-2xl my-5 text-white">New Ofert</a>
                 <a href="#" class="text-white my-1">Lorem ipsum dolor sit</a>
                 <a href="#" class="text-white my-1">Lorem ipsum dolor sit</a>
                 <a href="#" class="text-white my-1">Lorem ipsum dolor sit</a>
@@ -134,7 +134,7 @@
                 <a href="#" class="text-white my-1">Lorem ipsum dolor sit</a>
             </div>
             <div class="flex flex-col items-start justify-start mx-10 my-3">
-                <a href="#" class="text-2xl my-5 text-white">Products</a>
+                <a href="{{ route('products') }}" class="text-2xl my-5 text-white">Products</a>
                 <a href="#" class="text-white my-1">Lorem ipsum dolor sit</a>
                 <a href="#" class="text-white my-1">Lorem ipsum dolor sit</a>
                 <a href="#" class="text-white my-1">Lorem ipsum dolor sit</a>
@@ -142,7 +142,7 @@
                 <a href="#" class="text-white my-1">Lorem ipsum dolor sit</a>
             </div>
             <div class="flex flex-col items-start justify-start mx-10 my-3">
-                <a href="#" class="text-2xl my-5 text-white">Git Store</a>
+                <a href="{{ route('gitstore') }}" class="text-2xl my-5 text-white">Git Store</a>
                 <a href="#" class="text-white my-1">Lorem ipsum dolor sit</a>
                 <a href="#" class="text-white my-1">Lorem ipsum dolor sit</a>
                 <a href="#" class="text-white my-1">Lorem ipsum dolor sit</a>
